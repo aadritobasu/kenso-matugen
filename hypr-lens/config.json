@@ -1,6 +1,6 @@
 {
   "appearance": {
-    "matugenPath": "/home/rick/.config/quickshell/matugen.json",
+    "matugenPath": "/home/<username>/.config/quickshell/matugen.json",
     "ripple": {
       "usePrimaryColor": true,
       "colorMixRatio": 0.65,
@@ -9,7 +9,7 @@
     }
   },
   "screenSnip": {
-    "savePath": "/home/rick/Pictures/ScreenShots",
+    "savePath": "/home/<username>/Pictures/ScreenShots",
     "copyAlsoSaves": true
   },
   "screenRecord": {
