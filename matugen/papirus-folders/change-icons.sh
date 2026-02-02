@@ -59,9 +59,9 @@ done
 echo "$closest_color" > ~/.config/matugen/papirus-folders/current-catppuccin-color.txt
 
 echo "Closest Catppuccin Mocha color to $hex is: $closest_color"
-notify-send "Changing Theme" $closest_color --icon="/home/rick/.config/matugen/paint-brush.webp"
+notify-send "Changing Theme" $closest_color --icon="~/.config/matugen/paint-brush.webp"
 ~/.local/share/icons/papirus-folders.sh -C $closest_color -t ~/.local/share/icons/Papirus-Dark
 # Force GTK3 CSS re-parse
 
-notify-send "Applying Wallpaper" --icon="/home/rick/.config/matugen/paint-brush.webp"
+notify-send "Applying Wallpaper" --icon="~/.config/matugen/paint-brush.webp"
 

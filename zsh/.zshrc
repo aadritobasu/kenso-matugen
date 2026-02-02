@@ -164,7 +164,7 @@ alias ll='eza --icons=always --color=always -la'
 alias mysql='mysql -u root -p'
 alias vim='nvim'
 alias linutil='curl -fsSL https://christitus.com/linux | sh'
-alias pipes='/home/rick/pipes.sh/pipes.sh'
+alias pipes='~/pipes.sh/pipes.sh'
 alias ff='myfastfetch'
 
 #  ┌─┐┬ ┬┌┬┐┌─┐  ┌─┐┌┬┐┌─┐┬─┐┌┬┐
