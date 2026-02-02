@@ -1,0 +1,32 @@
+{
+    "overview": {
+        "rows": 3,
+        "columns": 3,
+        "scale": 0.18,
+        "orderRightLeft": false,
+        "orderBottomUp": false,
+        "centerIcons": true,
+        "showWorkspaceNumbers": true
+    },
+    "appearance": {
+        "backdropOpacity": 0,
+        "windowCornerRadius": 8,
+        "activeWorkspaceBorderWidth": 2,
+        "animationDuration": 200
+    },
+    "stashTrays": {
+        "enabled": true,
+        "trays": [
+            { "name": "quick", "label": "Quick Stash" },
+            { "name": "later", "label": "For Later" }
+        ],
+        "modifierKey": "Shift",
+        "secondaryModifier": "Control",
+        "showEmptyTrays": false,
+        "position": "bottom",
+        "previewScale": 0.12
+    },
+    "iconMappings": {
+        "net-runelite-client-RuneLite": "runelite"
+    }
+}
