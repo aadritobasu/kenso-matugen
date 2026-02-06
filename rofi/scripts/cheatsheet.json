@@ -1,0 +1,92 @@
+{
+  "title": "Hyprland Cheat Sheet",
+  "navigation": {
+    "prev_tab": ["Left", "H"],
+    "next_tab": ["Right", "L"],
+    "scroll_up": ["Up", "K"],
+    "scroll_down": ["Down", "J"]
+  },
+  "tabs": {
+    "Launch Apps": [
+      { "cmd": "SUPER + Enter", "desc": "Open terminal" },
+      { "cmd": "SUPER + ALT + Enter", "desc": "Open floating terminal" },
+      { "cmd": "SUPER + R", "desc": "Open application launcher" },
+      { "cmd": "SUPER + B", "desc": "Open Brave browser" },
+      { "cmd": "SUPER + W", "desc": "Open WhatsApp Web" },
+      { "cmd": "SUPER + C", "desc": "Open VSCode Insiders" },
+      { "cmd": "SUPER + V", "desc": "Open Neovim in terminal" },
+      { "cmd": "SUPER + M", "desc": "Open floating music player" },
+      { "cmd": "SUPER + Y", "desc": "Open floating Yazi file manager" },
+      { "cmd": "SUPER + E", "desc": "Open file manager" },
+      { "cmd": "SUPER + A", "desc": "Toggle notification center" }
+    ],
+
+    "Window Controls": [
+      { "cmd": "SUPER + Q", "desc": "Close active window" },
+      { "cmd": "SUPER + ALT + Q", "desc": "Exit Hyprland session" },
+      { "cmd": "SUPER + F", "desc": "Toggle fullscreen" },
+      { "cmd": "SUPER + SPACE", "desc": "Toggle floating mode" },
+      { "cmd": "SUPER + J", "desc": "Toggle split direction" },
+      { "cmd": "SUPER + T", "desc": "Toggle window opacity" },
+      { "cmd": "SUPER + TAB", "desc": "Toggle overview mode" }
+    ],
+
+    "Window Navigation": [
+      { "cmd": "SUPER + Arrow Keys", "desc": "Move focus between windows" },
+      { "cmd": "ALT + TAB", "desc": "Cycle through open windows" },
+      { "cmd": "SUPER + Drag (Left Mouse)", "desc": "Move window" },
+      { "cmd": "SUPER + Drag (Right Mouse)", "desc": "Resize window" }
+    ],
+
+    "Workspace Management": [
+      { "cmd": "SUPER + 1 → 0", "desc": "Switch workspace (1-10)" },
+      { "cmd": "SUPER + SHIFT + 1 → 0", "desc": "Move window to workspace" },
+      { "cmd": "SUPER + CTRL + 1 → 0", "desc": "Move window silently to workspace" },
+      { "cmd": "SUPER + Scroll", "desc": "Cycle through workspaces" },
+      { "cmd": "SUPER + ,", "desc": "Previous workspace" },
+      { "cmd": "SUPER + .", "desc": "Next workspace" }
+    ],
+
+    "Window Layout & Movement": [
+      { "cmd": "SUPER + CTRL + Arrows", "desc": "Move window direction" },
+      { "cmd": "SUPER + ALT + Arrows", "desc": "Swap window direction" },
+      { "cmd": "SUPER + SHIFT + Arrows", "desc": "Resize window" }
+    ],
+
+    "Screenshots & Recording": [
+      { "cmd": "SUPER + SHIFT + S", "desc": "Take region screenshot" },
+      { "cmd": "SUPER + SHIFT + R", "desc": "Record screen region" },
+      { "cmd": "SUPER + SHIFT + ALT + R", "desc": "Record region with audio" },
+      { "cmd": "SUPER + SHIFT + X", "desc": "Extract text using OCR" },
+      { "cmd": "SUPER + SHIFT + A", "desc": "Search image using Google Lens" },
+      { "cmd": "SUPER + SHIFT + C", "desc": "Color picker" }
+    ],
+
+    "Clipboard & Utilities": [
+      { "cmd": "SUPER + ALT + C", "desc": "Open clipboard manager" },
+      { "cmd": "CTRL + ALT + Delete", "desc": "Clear clipboard history" }
+    ],
+
+    "System & Theming": [
+      { "cmd": "SUPER + ALT + W", "desc": "Open wallpaper picker" },
+      { "cmd": "SUPER + ALT + T", "desc": "Open theme picker" },
+      { "cmd": "SUPER + ALT + S", "desc": "Open system launcher" },
+      { "cmd": "SUPER + SHIFT + B", "desc": "Switch Waybar theme" },
+      { "cmd": "SUPER + ALT + P", "desc": "Open logout menu" }
+    ],
+
+    "Workspace Stash": [
+      { "cmd": "SUPER + SHIFT + V", "desc": "Stash current workspace" },
+      { "cmd": "SUPER + SHIFT + U", "desc": "Restore stashed workspace" }
+    ],
+
+    "Media & Brightness": [
+      { "cmd": "F7", "desc": "Increase volume" },
+      { "cmd": "F6", "desc": "Decrease volume" },
+      { "cmd": "F4", "desc": "Toggle mute output" },
+      { "cmd": "F8", "desc": "Toggle microphone mute" },
+      { "cmd": "F10", "desc": "Increase brightness" },
+      { "cmd": "F9", "desc": "Decrease brightness" }
+    ]
+  }
+}
