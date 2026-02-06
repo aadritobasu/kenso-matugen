@@ -13,6 +13,7 @@ MENU_ITEMS=(
     "   Clipboard"
     "   Capture"
     "󰞅   Emoji"
+    "󰌌   Cheatsheet"
 )
 
 # --- Show rofi menu ---
@@ -45,6 +46,9 @@ case "$SELECTED" in
 		;;
 	"󰞅   Emoji")
 		"$HOME/.config/hypr/emoji.sh"
+		;;
+    "󰌌   Cheatsheet")
+		"$HOME/.config/rofi/scripts/key.sh"
 		;;
     *)
         echo "Unknown option: $SELECTED"
